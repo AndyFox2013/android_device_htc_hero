@@ -120,3 +120,7 @@ service bugreport /system/bin/dumpstate -d -v -o /sdcard/bugreports/bugreport
     disabled
     oneshot
     keycodes 158 139
+
+# CMx Edits	
+setprop ro.squadzone.build 1
+setprop persist.sys.gmaps_hack 1
